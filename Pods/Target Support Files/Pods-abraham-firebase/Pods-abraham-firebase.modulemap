@@ -1,0 +1,6 @@
+framework module Pods_abraham_firebase {
+  umbrella header "Pods-abraham-firebase-umbrella.h"
+
+  export *
+  module * { export * }
+}

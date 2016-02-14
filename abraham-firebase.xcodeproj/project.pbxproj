@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800AC8831C60C4A7000D5FA6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AC8821C60C4A7000D5FA6 /* Post.swift */; };
 		80B72CEE1C5F29AD009A9BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72CED1C5F29AD009A9BA7 /* AppDelegate.swift */; };
 		80B72CF01C5F29AD009A9BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72CEF1C5F29AD009A9BA7 /* ViewController.swift */; };
 		80B72CF31C5F29AD009A9BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B72CF11C5F29AD009A9BA7 /* Main.storyboard */; };
 		80B72CF51C5F29AD009A9BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B72CF41C5F29AD009A9BA7 /* Assets.xcassets */; };
 		80B72CF81C5F29AD009A9BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B72CF61C5F29AD009A9BA7 /* LaunchScreen.storyboard */; };
+		80B72D071C5F2A4B009A9BA7 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B72D031C5F2A4B009A9BA7 /* NotoSans-Bold.ttf */; };
+		80B72D081C5F2A4B009A9BA7 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B72D041C5F2A4B009A9BA7 /* NotoSans-BoldItalic.ttf */; };
+		80B72D091C5F2A4B009A9BA7 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B72D051C5F2A4B009A9BA7 /* NotoSans-Italic.ttf */; };
+		80B72D0A1C5F2A4B009A9BA7 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B72D061C5F2A4B009A9BA7 /* NotoSans-Regular.ttf */; };
+		80B72D0C1C5F3069009A9BA7 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D0B1C5F3069009A9BA7 /* MaterialView.swift */; };
+		80B72D0F1C5F3103009A9BA7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D0E1C5F3103009A9BA7 /* Constants.swift */; };
+		80B72D111C5F3931009A9BA7 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D101C5F3931009A9BA7 /* MaterialButton.swift */; };
+		80B72D151C5F4B00009A9BA7 /* MaterialTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D141C5F4B00009A9BA7 /* MaterialTxtField.swift */; };
+		80B72D1A1C5F54ED009A9BA7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B72D171C5F54ED009A9BA7 /* Bolts.framework */; };
+		80B72D1B1C5F54ED009A9BA7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B72D181C5F54ED009A9BA7 /* FBSDKCoreKit.framework */; };
+		80B72D1C1C5F54ED009A9BA7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B72D191C5F54ED009A9BA7 /* FBSDKLoginKit.framework */; };
+		80B72D1F1C5F742F009A9BA7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D1E1C5F742F009A9BA7 /* DataService.swift */; };
+		80B72D211C5FBA71009A9BA7 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D201C5FBA71009A9BA7 /* FeedVC.swift */; };
+		80B72D231C5FBD87009A9BA7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B72D221C5FBD87009A9BA7 /* PostCell.swift */; };
+		EE2FAC86EF5C7DD5A092D5F8 /* Pods_abraham_firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDB9265709F68C7C3BB4E33 /* Pods_abraham_firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FDB9265709F68C7C3BB4E33 /* Pods_abraham_firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abraham_firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800AC8821C60C4A7000D5FA6 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		80B72CEA1C5F29AD009A9BA7 /* abraham-firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "abraham-firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B72CED1C5F29AD009A9BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80B72CEF1C5F29AD009A9BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,22 @@
 		80B72CF41C5F29AD009A9BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B72CF71C5F29AD009A9BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B72CF91C5F29AD009A9BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B72D031C5F2A4B009A9BA7 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		80B72D041C5F2A4B009A9BA7 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		80B72D051C5F2A4B009A9BA7 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		80B72D061C5F2A4B009A9BA7 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		80B72D0B1C5F3069009A9BA7 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		80B72D0E1C5F3103009A9BA7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80B72D101C5F3931009A9BA7 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		80B72D141C5F4B00009A9BA7 /* MaterialTxtField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTxtField.swift; sourceTree = "<group>"; };
+		80B72D171C5F54ED009A9BA7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		80B72D181C5F54ED009A9BA7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		80B72D191C5F54ED009A9BA7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		80B72D1E1C5F742F009A9BA7 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		80B72D201C5FBA71009A9BA7 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		80B72D221C5FBD87009A9BA7 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		86EFE144EBCD3A8002664EA9 /* Pods-abraham-firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abraham-firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-abraham-firebase/Pods-abraham-firebase.release.xcconfig"; sourceTree = "<group>"; };
+		BFEFF891913FE44FB72BEFD8 /* Pods-abraham-firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abraham-firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-abraham-firebase/Pods-abraham-firebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B72D1A1C5F54ED009A9BA7 /* Bolts.framework in Frameworks */,
+				80B72D1B1C5F54ED009A9BA7 /* FBSDKCoreKit.framework in Frameworks */,
+				80B72D1C1C5F54ED009A9BA7 /* FBSDKLoginKit.framework in Frameworks */,
+				EE2FAC86EF5C7DD5A092D5F8 /* Pods_abraham_firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +78,8 @@
 			children = (
 				80B72CEC1C5F29AD009A9BA7 /* abraham-firebase */,
 				80B72CEB1C5F29AD009A9BA7 /* Products */,
+				DFB2AEF997F3B77C0FC655EF /* Pods */,
+				88BF6A3008A7CB4910972F85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,102 @@
 		80B72CEC1C5F29AD009A9BA7 /* abraham-firebase */ = {
 			isa = PBXGroup;
 			children = (
+				80B72D1D1C5F7410009A9BA7 /* Services */,
+				80B72D161C5F54DB009A9BA7 /* Frameworks */,
+				80B72D0D1C5F30C3009A9BA7 /* Util */,
+				80B72D011C5F2A27009A9BA7 /* Model */,
+				80B72D001C5F2A20009A9BA7 /* View */,
+				80B72CFF1C5F2A16009A9BA7 /* Controller */,
+				80B72D021C5F2A2C009A9BA7 /* Resources */,
 				80B72CED1C5F29AD009A9BA7 /* AppDelegate.swift */,
-				80B72CEF1C5F29AD009A9BA7 /* ViewController.swift */,
 				80B72CF11C5F29AD009A9BA7 /* Main.storyboard */,
 				80B72CF41C5F29AD009A9BA7 /* Assets.xcassets */,
 				80B72CF61C5F29AD009A9BA7 /* LaunchScreen.storyboard */,
 				80B72CF91C5F29AD009A9BA7 /* Info.plist */,
 			);
 			path = "abraham-firebase";
+			sourceTree = "<group>";
+		};
+		80B72CFF1C5F2A16009A9BA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80B72CEF1C5F29AD009A9BA7 /* ViewController.swift */,
+				80B72D201C5FBA71009A9BA7 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		80B72D001C5F2A20009A9BA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B72D0B1C5F3069009A9BA7 /* MaterialView.swift */,
+				80B72D101C5F3931009A9BA7 /* MaterialButton.swift */,
+				80B72D141C5F4B00009A9BA7 /* MaterialTxtField.swift */,
+				80B72D221C5FBD87009A9BA7 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		80B72D011C5F2A27009A9BA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				800AC8821C60C4A7000D5FA6 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80B72D021C5F2A2C009A9BA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80B72D031C5F2A4B009A9BA7 /* NotoSans-Bold.ttf */,
+				80B72D041C5F2A4B009A9BA7 /* NotoSans-BoldItalic.ttf */,
+				80B72D051C5F2A4B009A9BA7 /* NotoSans-Italic.ttf */,
+				80B72D061C5F2A4B009A9BA7 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		80B72D0D1C5F30C3009A9BA7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				80B72D0E1C5F3103009A9BA7 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		80B72D161C5F54DB009A9BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B72D171C5F54ED009A9BA7 /* Bolts.framework */,
+				80B72D181C5F54ED009A9BA7 /* FBSDKCoreKit.framework */,
+				80B72D191C5F54ED009A9BA7 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B72D1D1C5F7410009A9BA7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				80B72D1E1C5F742F009A9BA7 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		88BF6A3008A7CB4910972F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDB9265709F68C7C3BB4E33 /* Pods_abraham_firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB2AEF997F3B77C0FC655EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEFF891913FE44FB72BEFD8 /* Pods-abraham-firebase.debug.xcconfig */,
+				86EFE144EBCD3A8002664EA9 /* Pods-abraham-firebase.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80B72CFC1C5F29AD009A9BA7 /* Build configuration list for PBXNativeTarget "abraham-firebase" */;
 			buildPhases = (
+				938D66A1FA2C08B992356727 /* Check Pods Manifest.lock */,
 				80B72CE61C5F29AD009A9BA7 /* Sources */,
 				80B72CE71C5F29AD009A9BA7 /* Frameworks */,
 				80B72CE81C5F29AD009A9BA7 /* Resources */,
+				03AE115F558C6F68FB7C4C23 /* Embed Pods Frameworks */,
+				5C2497E7EA1F50DDFFC49B95 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +253,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B72D071C5F2A4B009A9BA7 /* NotoSans-Bold.ttf in Resources */,
 				80B72CF81C5F29AD009A9BA7 /* LaunchScreen.storyboard in Resources */,
+				80B72D081C5F2A4B009A9BA7 /* NotoSans-BoldItalic.ttf in Resources */,
+				80B72D091C5F2A4B009A9BA7 /* NotoSans-Italic.ttf in Resources */,
 				80B72CF51C5F29AD009A9BA7 /* Assets.xcassets in Resources */,
 				80B72CF31C5F29AD009A9BA7 /* Main.storyboard in Resources */,
+				80B72D0A1C5F2A4B009A9BA7 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AE115F558C6F68FB7C4C23 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-abraham-firebase/Pods-abraham-firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2497E7EA1F50DDFFC49B95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-abraham-firebase/Pods-abraham-firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938D66A1FA2C08B992356727 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80B72CE61C5F29AD009A9BA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B72D151C5F4B00009A9BA7 /* MaterialTxtField.swift in Sources */,
+				80B72D1F1C5F742F009A9BA7 /* DataService.swift in Sources */,
+				80B72D0C1C5F3069009A9BA7 /* MaterialView.swift in Sources */,
 				80B72CF01C5F29AD009A9BA7 /* ViewController.swift in Sources */,
+				80B72D211C5FBA71009A9BA7 /* FeedVC.swift in Sources */,
+				80B72D231C5FBD87009A9BA7 /* PostCell.swift in Sources */,
 				80B72CEE1C5F29AD009A9BA7 /* AppDelegate.swift in Sources */,
+				80B72D0F1C5F3103009A9BA7 /* Constants.swift in Sources */,
+				80B72D111C5F3931009A9BA7 /* MaterialButton.swift in Sources */,
+				800AC8831C60C4A7000D5FA6 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +373,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -227,6 +419,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -239,6 +432,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -247,23 +441,41 @@
 		};
 		80B72CFD1C5F29AD009A9BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEFF891913FE44FB72BEFD8 /* Pods-abraham-firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/abraham-firebase",
+				);
 				INFOPLIST_FILE = "abraham-firebase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.abraham-firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.apps1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		80B72CFE1C5F29AD009A9BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86EFE144EBCD3A8002664EA9 /* Pods-abraham-firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/abraham-firebase",
+				);
 				INFOPLIST_FILE = "abraham-firebase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.abraham-firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.apps1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -286,6 +498,7 @@
 				80B72CFE1C5F29AD009A9BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
